@@ -1,0 +1,254 @@
+
+           /*-----fonts-------*/ 
+            
+             @font-face{
+     font-family:circuit;
+     src:url(Fonts/WRESTLEMANIA.ttf);
+ }
+
+body{
+    background: rgba( 236, 236, 238, 0.556 )
+
+}
+              /*-----header-------*/ 
+                  .header{
+        height:400px;
+        background-image: url(Images/blue_vector.jpg);
+                      background-size:100% 100%;
+                      background-repeat: no-repeat;
+                color:white;
+                text-align: center;
+                      font-family: circuit;
+        color:rgba( 21, 21, 60, 0.731 );
+            }
+            
+            .col-xs-12 p{
+                letter-spacing: 4px;
+             position: relative;
+                top: 90px;
+                font-size: 100px;
+            background-color: rgba( 221, 227, 221, 0.795 );
+            
+            }
+.white{
+background-color: white, 9, 67, 0.408 );
+}
+.welcome{
+       margin-top: 5px;
+}
+.welcome h2,p{
+margin-left: 5px
+}
+.img{
+  
+    margin:50px 50px 50px 90px;
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+
+background-image: url(Images/orion.jpg);
+
+}
+
+/*-------Sections-------*/
+
+.col-xs-4{
+        height:100px;
+        background-color: white;
+                color:white;
+                text-align: center;
+                 height:100px;
+                 margin-top: 50px;
+            }
+           
+           
+            .section1{
+            background-image:url(Images/Electronics.jpg);
+                 margin-left: 10px;
+                background-repeat: no-repeat;
+                background-size: cover;
+            width: 300px;
+                height: 300px;     
+            }
+.section1 p{
+    font-size: 40px;
+    position: relative;
+top: 105px;
+    background-color: rgba( 0, 9, 15, 0.511 )
+
+}
+            .section2{
+                
+                margin-left: 120px;
+                margin-right: 120px;
+           background-image: url(Images/resistor.jpg);
+                                background-size: cover;
+
+                background-repeat: no-repeat;
+                width: 300px;
+                height: 300px;
+            }
+.section2 p{
+    font-size: 40px;
+    position: relative;
+top: 105px;
+    background-color: rgba( 0, 9, 15, 0.511 )
+
+}
+            
+                      .section3{
+           background-image: url(Images/AC.png);
+                background-size:cover;
+                background-repeat: no-repeat;
+                width: 300px;
+                height: 300px;
+            }
+
+        .section3 p{
+            font-size: 40px;
+    position: relative;
+top: 105px;
+    background-color: rgba( 0, 9, 15, 0.511 )
+        
+        }
+            .section4{
+            background-image:url(Images/Semi.jpg);
+
+                margin-left: 10px;
+                background-repeat: no-repeat;
+                background-size: cover;
+            width: 300px;
+                height: 300px;
+            }
+.section4 p{
+
+    font-size: 35px;
+    position: relative;
+top: 105px;
+    background-color: rgba( 0, 9, 15, 0.511 )
+
+}
+            .section5{
+                
+                margin-left: 120px;
+                margin-right: 120px;
+           background-image: url(Images/Digital.jpg);
+                                background-size: cover;
+
+                background-repeat: no-repeat;
+                width: 300px;
+                height: 300px;
+            }
+.section5 p{
+
+    font-size: 40px;
+    position: relative;
+top: 105px;
+    background-color: rgba( 0, 9, 15, 0.511 )
+}
+            
+                      .section6{
+                          background-color: white;
+           background-image: url(Images/Calculator.jpg);
+                background-size:cover;
+                background-repeat: no-repeat;
+                width: 300px;
+                height: 300px;
+            }
+
+.section6 p{
+    font-size: 40px;
+    position: relative;
+top: 105px;
+    background-color: rgba( 0, 9, 15, 0.511 )
+
+}
+            .footer{
+            background-color:rgba( 12, 108, 185, 0.644 );
+                height: 50px;
+                margin-top: 50px;
+                     
+            }
+
+/*-------media Queries------*/
+@media screen and (max-width:768px) and (min-width:300px){
+    .header{
+    height: 200px;
+    }
+.img{
+display: none;
+}
+    .welcome{
+    width: 100%;
+    }
+ .section2, .section5{
+ margin-left: 0;
+     margin-right: 0;
+ }
+    .col-xs-4 {
+    width: 100%;
+    }
+
+    .col-xs-12 p{
+    font-size: 40px;
+    }
+    .section{
+    margin-right: 0px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:1200px){
+  
+.img{
+display: none
+}
+    .welcome{
+    width: 100%;
+    }
+    .col-xs-4 {
+    width: 300px;
+        height: 200px;
+        margin: 10px 0 0 15px;
+    }
+     .col-xs-4 p{
+         font-size: 22px;
+    
+    }
+}
+@media screen and (max-width:800px){
+  
+.img{
+display: none;
+}
+    .welcome{
+    width: 50%;
+    }
+    .col-xs-4 {
+    width: 100%;
+        height: 200px;
+        margin: 10px 0 0 0;
+    }
+     .col-xs-4 p{
+         font-size: 22px;
+    
+    }
+}
+@media screen and (max-width:1050px){
+  
+.img{
+display: none;
+}
+    .welcome{
+    width: 100%;
+    }
+    .col-xs-4 {
+    width: 100%;
+        height: 200px;
+        margin: 10px 0 0 0;
+    }
+     .col-xs-4 p{
+         font-size: 22px;
+    
+    }
+}
